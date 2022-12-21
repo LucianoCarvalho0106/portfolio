@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu{
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+header{
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4em;
+    position: absolute;
+    top: 0px;
+    margin-bottom: 3em;
+    z-index: 800;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    color: #666666;
+}
+header ul li{
+    cursor: pointer;
+    padding: 5px;
+}
+header ul :not(:last-child){
+    margin-right: 15px;
+}
+.social :not(:last-child){
+    margin-right: 10px;
+}
+
+@media (max-width:720px){
+   
+
+}
+
+
