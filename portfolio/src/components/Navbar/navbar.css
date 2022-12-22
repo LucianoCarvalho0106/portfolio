@@ -9,28 +9,26 @@
     border: none;
     background-color: transparent;
 }
+nav{
+    display: flex;
+    align-items: center;
+}
 
 header{
     width: 100%;
-    
-}
-nav{
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 1.4em;
-    position: absolute;
-    top: 0px;
-    margin-bottom: 3em;
-    z-index: 800;
+    padding: .6em 4em;
 }
+
 header ul{
     list-style: none;
     display: flex;
     color: #666666;
 }
 header ul li{
+    font-size: 1.2em;
     cursor: pointer;
     padding: 5px;
 }
@@ -43,7 +41,39 @@ header ul :not(:last-child){
 
 @media (max-width:720px){
    
+   .menu{
+    display: block;
+   }
 
+   header ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    top: 58.18px;
+    left: 0;
+    width: 0%;
+    height: calc(100vh - 58.18px);
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 1.7em;
+    z-index: 1000;
+    overflow: hidden;
+    transition: .5s;
+   }
+
+   header .true ul{
+    visibility: visible;
+    width: 100%;
+    overflow: auto;
+   }
+   header  ul li:hover{
+    background-color: #d6d6d6;
+    border-radius: 5px;
+   }
+   header  ul li{
+    padding: 1rem;
+   }
 }
 
 
