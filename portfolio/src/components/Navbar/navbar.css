@@ -55,7 +55,8 @@ header ul :not(:last-child){
     left: 0;
     width: 0%;
     height: calc(100vh - 58.18px);
-    background-color: rgba(0, 0, 0, .2);
+    background-color:#666666;
+    color: #FFF;
     font-size: 1.7em;
     z-index: 1000;
     overflow: hidden;
