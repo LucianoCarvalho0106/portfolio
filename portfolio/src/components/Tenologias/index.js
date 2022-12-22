@@ -5,7 +5,7 @@ import {SiJavascript,SiNodedotjs,SiMongodb,SiPostgresql}from "react-icons/si"
 
 export default function Tecnologias(){
     return(
-        <section className="container">
+        <section id="tecnologias" className="container">
             <div className="text">
                 <h2>Tecnologias</h2>
                 <p>Tecnologias que uso em meus projetos</p>

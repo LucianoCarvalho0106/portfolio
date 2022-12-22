@@ -14,12 +14,25 @@ nav{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: #d6d6d6;
+}
+a li:hover{
+    background-color: rgb(172, 170, 170);
+    border-radius: 5px;
+}
+
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: .6em 4em;
+    position: sticky;
+    top: 0;
+    background-color: #42446E;
+    border-radius: 4px;
 }
 
 header ul{
@@ -56,14 +69,17 @@ header ul :not(:last-child){
     width: 0%;
     height: calc(100vh - 58.18px);
     background-color:#666666;
-    color: #FFF;
-    font-size: 1.7em;
     z-index: 1000;
     overflow: hidden;
     transition: .5s;
    }
 
-   header .true ul{
+   header ul a{
+    color: #FFF;
+    font-size: 1.7em;
+   }
+
+   header .ativo ul{
     visibility: visible;
     width: 100%;
     overflow: auto;

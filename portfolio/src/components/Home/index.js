@@ -3,9 +3,10 @@ import logo from "../../images/Logo_soluções_em_técnico_de_informática_azul_
 
 export default function Home(){
     return(
-        <section className="container">
+        <section id="home" className="container">
             <div className="text">
-                <h1>Olá<br></br> Meu Nome é Luciano <br></br>
+                
+                <h1>Olá<br></br>Seja Bem Vindo(a)<br></br> Meu Nome é Luciano <br></br>
                     Sou um Desenvolvedor de Software!
                 </h1>
             </div>

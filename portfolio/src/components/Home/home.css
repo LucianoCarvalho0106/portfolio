@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 
-.container{
+#home{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     min-height: calc(100vh - 58.18px);
 }
-.text{
-    text-align: center;
-    color: rgb(51, 49, 49);
+#home .text{
+    text-align: justify;
+    color: #42446E;
     font-size: 1.2em;
-    text-transform: uppercase;
     line-height: 2em;
 }
 .logo img{
-    height: 18em;
+    height: 30em;
 }
