@@ -1,6 +1,6 @@
 
 
-#projetos-container{
+#projetos{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,6 +8,7 @@
     flex-direction: column;
     min-height: 100vh;
     color:#FFF; 
+    margin-bottom: 2.5em;
 }
 .text-projeto h1{
     margin-top: -.7em;
@@ -118,4 +119,13 @@
 .card:hover .content {
     height: 170px;
     transform: translateY(0);
+}
+@media (max-width:400px){
+    .text-projeto{ 
+        max-width: 80%;
+        text-align: center;
+    }
+    .text-projeto h1{
+        font-size: 2.5em;
+    }
 }

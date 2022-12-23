@@ -21,3 +21,24 @@
 .logo img{
     height: 30em;
 }
+
+@media (max-width:1010px){
+    #home{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #home .logo img{
+        height: 22em;
+    }
+    #home .text{
+        order: 2;
+        margin-top: 1em;
+        margin-bottom: 1.3em;
+    }
+}
+@media (max-width:540px){
+    #home .text{
+        max-width: 80%;
+        font-size: 1em;
+    }
+}

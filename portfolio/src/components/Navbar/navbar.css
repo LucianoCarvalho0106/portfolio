@@ -19,8 +19,9 @@ a{
     color: #d6d6d6;
 }
 a li:hover{
-    background-color: rgb(172, 170, 170);
+    background-color: rgb(247, 238, 238);
     border-radius: 5px;
+    color: #42446E;
 }
 
 header{
@@ -33,6 +34,7 @@ header{
     top: 0;
     background-color: #42446E;
     border-radius: 4px;
+    z-index: 1000;
 }
 
 header ul{

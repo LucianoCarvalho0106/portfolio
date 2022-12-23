@@ -29,10 +29,10 @@ function Navbar(){
                     <AiOutlineMenu size={25} color={"#d6d6d6"}></AiOutlineMenu>
                 </button>
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>Sobre</li></a>
-                    <a href="#"><li>Tecnologias</li></a> 
-                    <a href="#"><li>Projetos</li></a>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#tecnologias"><li>Tecnologias</li></a> 
+                    <a href="#projetos"><li>Projetos</li></a>
                 </ul>
             </nav>
             

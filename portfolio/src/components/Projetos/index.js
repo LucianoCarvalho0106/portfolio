@@ -5,7 +5,7 @@ import {AiOutlineArrowUp} from "react-icons/ai"
  function Projetos(){
     
     return(
-        <section id="projetos-container">
+        <section id="projetos">
             <div className="text-projeto">
                 <h1>Projetos</h1>
                 <p>Alguns Dos Projetos Desenvolvidos até Agora</p>
