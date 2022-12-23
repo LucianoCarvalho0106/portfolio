@@ -68,14 +68,14 @@ header ul :not(:last-child){
     left: 0;
     width: 0%;
     height: calc(100vh - 58.18px);
-    background-color:#666666;
+    background-color:#f8f7f7;
     z-index: 1000;
     overflow: hidden;
     transition: .5s;
    }
-
+   
    header ul a{
-    color: #FFF;
+    color: #42446E;
     font-size: 1.7em;
    }
 

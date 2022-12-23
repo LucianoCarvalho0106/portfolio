@@ -1,21 +1,116 @@
 import  "./projetos.css"
-import avatar from "../../images/avatar.png"
- 
+import {AiOutlineArrowUp} from "react-icons/ai"
 
+ 
  function Projetos(){
+    
     return(
-        <section id="projetos">
-            <div>
-                <h2>Projetos</h2>
-                <p>Alguns Dos Projetos que fiz até Agora</p>
+        <section id="projetos-container">
+            <div className="text-projeto">
+                <h1>Projetos</h1>
+                <p>Alguns Dos Projetos Desenvolvidos até Agora</p>
+            </div>
+
+            <div className="container-cards">
+            <div className="card">
+                <div className='img'>
+                   
+                </div>
+                <div className='content'>
+                    <span className='title'>
+                        Prime-Flix
+                    </span>
+                    <p className="desc">Projeto em ReactJs que consome a API do TMDB e exibe os 10 primeiros filmes em cartaz.</p> <br></br>
+                    <a className="links" href="https://primeflix-luciano.netlify.app/">Ver projeto</a>  <a className="links" href="https://github.com/LucianoCarvalho0106/primeflix">Código</a>
+                </div>
+                <div className="arrow">
+                    <span><AiOutlineArrowUp></AiOutlineArrowUp></span>
+                </div>
+                
+            </div>
+            
+            <div className="card">
+                <div className='img'>
+                   
+                </div>
+                <div className='content'>
+                    <span className='title'>
+                        Prime-Flix
+                    </span>
+                    <p className="desc">Projeto em ReactJs que consome a API do TMDB e exibe os 10 primeiros filmes em cartaz.</p> <br></br>
+                    <a className="links" href="https://primeflix-luciano.netlify.app/">Ver projeto</a>  <a className="links" href="https://github.com/LucianoCarvalho0106/primeflix">Código</a>
+                </div>
+                <div className="arrow">
+                    <span><AiOutlineArrowUp></AiOutlineArrowUp></span>
+                </div>
+                
             </div>
             <div className="card">
-                <img src={avatar} alt="prime-Flix"></img>
-                <div className="cardText">
-                    <h3>Prime-Flix</h3>
-                    <p className="descricao">Projeto que exibe os 10 primeiros filmes em cartaz, utilizando a api do TMDB</p>
-                    <p className="descricao">Tecnologias usadas: ReactJs</p>
+                <div className='img'>
+                   
                 </div>
+                <div className='content'>
+                    <span className='title'>
+                        Prime-Flix
+                    </span>
+                    <p className="desc">Projeto em ReactJs que consome a API do TMDB e exibe os 10 primeiros filmes em cartaz.</p> <br></br>
+                    <a className="links" href="https://primeflix-luciano.netlify.app/">Ver projeto</a>  <a className="links" href="https://github.com/LucianoCarvalho0106/primeflix">Código</a>
+                </div>
+                <div className="arrow">
+                    <span><AiOutlineArrowUp></AiOutlineArrowUp></span>
+                </div>
+                
+            </div>
+
+            <div className="card">
+                <div className='img'>
+                   
+                </div>
+                <div className='content'>
+                    <span className='title'>
+                        Prime-Flix
+                    </span>
+                    <p className="desc">Projeto em ReactJs que consome a API do TMDB e exibe os 10 primeiros filmes em cartaz.</p> <br></br>
+                    <a className="links" href="https://primeflix-luciano.netlify.app/">Ver projeto</a>  <a className="links" href="https://github.com/LucianoCarvalho0106/primeflix">Código</a>
+                </div>
+                <div className="arrow">
+                    <span><AiOutlineArrowUp></AiOutlineArrowUp></span>
+                </div>
+                
+            </div>
+            
+            <div className="card">
+                <div className='img'>
+                   
+                </div>
+                <div className='content'>
+                    <span className='title'>
+                        Prime-Flix
+                    </span>
+                    <p className="desc">Projeto em ReactJs que consome a API do TMDB e exibe os 10 primeiros filmes em cartaz.</p> <br></br>
+                    <a className="links" href="https://primeflix-luciano.netlify.app/">Ver projeto</a>  <a className="links" href="https://github.com/LucianoCarvalho0106/primeflix">Código</a>
+                </div>
+                <div className="arrow">
+                    <span><AiOutlineArrowUp></AiOutlineArrowUp></span>
+                </div>
+                
+            </div>
+            <div className="card">
+                <div className='img'>
+                   
+                </div>
+                <div className='content'>
+                    <span className='title'>
+                        Prime-Flix
+                    </span>
+                    <p className="desc">Projeto em ReactJs que consome a API do TMDB e exibe os 10 primeiros filmes em cartaz.</p> <br></br>
+                    <a className="links" href="https://primeflix-luciano.netlify.app/">Ver projeto</a>  <a className="links" href="https://github.com/LucianoCarvalho0106/primeflix">Código</a>
+                </div>
+                <div className="arrow">
+                    <span><AiOutlineArrowUp></AiOutlineArrowUp></span>
+                </div>
+                
+             </div>
             </div>
         </section>
     )
