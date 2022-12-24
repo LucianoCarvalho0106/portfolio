@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .menu{
     display: none;
     border: none;
@@ -16,7 +19,7 @@ nav{
 
 a{
     text-decoration: none;
-    color: #d6d6d6;
+    color: #FFF;
 }
 a li:hover{
     background-color: rgb(247, 238, 238);
@@ -32,7 +35,7 @@ header{
     padding: .6em 4em;
     position: sticky;
     top: 0;
-    background-color: #42446E;
+    background-color: #7159C1;
     border-radius: 4px;
     z-index: 1000;
 }

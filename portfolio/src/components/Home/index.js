@@ -8,6 +8,7 @@ export default function Home(){
                 
                 <h1>Olá<br></br>Seja Bem Vindo(a)<br></br> Meu Nome é Luciano <br></br>
                     Sou um Desenvolvedor de Software!
+                    
                 </h1>
             </div>
             <div className="logo">

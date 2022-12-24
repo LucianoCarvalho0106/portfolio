@@ -21,12 +21,12 @@ function Navbar(){
         <header>
             
             <div className="social">
-               <a target="blank" href="https://www.linkedin.com/in/luciano-carvalho0106/"><AiFillLinkedin color={"#d6d6d6"} size={35}></AiFillLinkedin></a> 
-                <a target="blank" href="https://github.com/LucianoCarvalho0106/Lucianocarvalho0106"><AiFillGithub color={"#d6d6d6"} size={35}></AiFillGithub></a>
+               <a target="blank" href="https://www.linkedin.com/in/luciano-carvalho0106/"><AiFillLinkedin  size={35}></AiFillLinkedin></a> 
+                <a target="blank" href="https://github.com/LucianoCarvalho0106/Lucianocarvalho0106"><AiFillGithub  size={35}></AiFillGithub></a>
             </div>
             <nav className={ativo?"ativo":""}>
                 <button className="menu" onClick={clickBtn}>
-                    <AiOutlineMenu size={25} color={"#d6d6d6"}></AiOutlineMenu>
+                    <AiOutlineMenu size={25}></AiOutlineMenu>
                 </button>
                 <ul>
                     <a href="#home"><li>Home</li></a>
