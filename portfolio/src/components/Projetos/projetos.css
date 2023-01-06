@@ -127,6 +127,10 @@
     height: 170px;
     transform: translateY(0);
 }
+.descp{
+    color: #42446E;
+    margin-top: 3px;
+}
 @media (max-width:400px){
     .text-projeto{ 
         max-width: 80%;

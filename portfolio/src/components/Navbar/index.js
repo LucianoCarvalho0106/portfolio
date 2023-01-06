@@ -7,9 +7,9 @@ function Navbar(){
     const [ativo,setAtivo] = useState(false)
     
    
-    function clickBtn(e){
+    function clickBtn(){
         
-        if(ativo === "ativo"){
+        if(ativo){
          setAtivo(false)
         console.log("desativado")
         return

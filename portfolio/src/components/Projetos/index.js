@@ -36,7 +36,8 @@ import { useState } from "react"
         <section id="projetos">
             <div className="text-projeto">
                 <h1>Projetos</h1>
-                <p>Alguns Dos Projetos Desenvolvidos até Agora</p>
+                <p className="descp">Alguns Dos Projetos Desenvolvidos até Agora</p>
+                <p className="descp"> PARA MAIS PROJETOS ACESSE MEU GITHUB!</p>
             </div>
         {
             projetos.map(projeto=>{
@@ -44,7 +45,7 @@ import { useState } from "react"
             <div className="container-cards" key={projeto.title}>
                 <div className="card">
                     <div className='img'>
-                        <img src={projeto.image}></img>
+                        <img src={projeto.image} alt={projeto.nome}></img>
                     </div>
                     <div className='content'>
                         <span className='title'>

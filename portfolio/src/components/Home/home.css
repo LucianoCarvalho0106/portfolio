@@ -6,9 +6,8 @@
 
 #home{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     min-height: calc(100vh - 58.18px);
 }
@@ -17,10 +16,11 @@
     color: #42446E;
     font-size: 1.2em;
     line-height: 2em; 
+    margin-left: 2em;
 }
 
 .person img{
-    height: 25em;
+    width: 40em;
 }
 .download{
     color: #fff;
@@ -45,12 +45,14 @@
         justify-content: center;
     }
     #home .person img{
-        height: 22em;
+        width: 30em;
     }
     #home .text{
         order: 2;
         margin-top: 1em;
         margin-bottom: 1.3em;
+        text-align: center;
+        margin-left: 0;
     }
 }
 @media (max-width:540px){
