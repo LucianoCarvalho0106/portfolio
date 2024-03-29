@@ -3,10 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 
-export interface IAppProps {
-}
-
-export default function App (props: IAppProps) {
+export default function App () {
   return (
     <>
         <Header></Header>
